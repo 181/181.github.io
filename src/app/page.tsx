@@ -15,7 +15,7 @@ export default async function Page() {
         transition={{ duration: 0.6, ease: "easeOut" }}
         style={{ marginBottom: "40px" }}
       >
-        <h1 style={{ marginBottom: "8px" }}>Dev’s Animated Portfolio</h1>
+        <h1 style={{ marginBottom: "8px" }}>Animated Portfolio</h1>
         <p style={{ opacity: 0.7 }}>Projects fetched live from GitHub API</p>
       </motion.header>
 
