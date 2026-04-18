@@ -6,6 +6,7 @@ export interface GitHubRepo {
   html_url: string;
   stargazers_count: number;
   language: string | null;
+  fork: boolean;
 }
 
 export async function fetchGitHubRepos(
