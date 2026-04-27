@@ -2,6 +2,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button"
 
 export default function Hero() {
   return (
@@ -22,7 +23,10 @@ export default function Hero() {
         transition={{ delay: 0.3, duration: 0.6 }}
       >
         Web developer specializing in Python, PHP, Java, JavaScript, and modern
-        React/Next.js systems.
+        React/Next.js systems. 
+      <div className="items-center">
+        <Button>Contact me</Button>
+      </div>
       </motion.p>
     </section>
   );
