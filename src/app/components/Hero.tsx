@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Hero() {
   return (
+    <>
     <section className="py-20 text-center">
       <motion.h1
         className="text-5xl font-bold mb-4"
@@ -24,10 +25,13 @@ export default function Hero() {
       >
         Web developer specializing in Python, PHP, Java, JavaScript, and modern
         React/Next.js systems. 
-      <div className="items-center">
-        <Button>Contact me</Button>
-      </div>
+      
       </motion.p>
     </section>
+    <div className="items-center text-center">
+      <Button>Contact me</Button>
+    </div>
+  </>    
   );
+  
 }
